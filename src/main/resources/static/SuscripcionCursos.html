@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Ferjo Bakery</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Paguina leccion 2"/>
+        <meta name="keywords" content="html5, css, web, fidelitas"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+      
+          <section id="contenido">
+            <header>
+
+                <h2>Suscripcion de cursos</h2>
+
+            </header>
+
+            <form action="#">                
+                       
+                <label>Nombre y apellidos </label><input type="text" id="text" placeholder="Digite lo solicitado" size="30"><br/>                
+                <label>Cursos de interes </label><textarea id="Ejemplo" rows="5" cols="30"></textarea><br/>                
+                <label>Fecha</label><input type="date" name="date" min="2021-01-01" max="2023-12-31"><br/>                
+                              
+                <label>Horario</label><input type="time" name="time"><br/>
+                <label>Email </label><input type="email" name="email" placeholder="a-z@a-z.xxx"><br/>                
+                              
+                <label>Telefono</label><input type="tel" name="tel" placeholder=""><br/>                
+                       
+                <label>Seleccione un horario </label>Mañana<input type="radio" name="horario" value="1"><br/>                
+                <label>Seleccione un horario </label>Tarde<input type="radio" name="horario" value="2"><br/>                
+                <label>Seleccione un horario </label>Noche<input type="radio" name="horario" value="3"><br/>                
+                <input type="range" value="24" min="1" max="100"                       
+                       oninput="this.nextElementSibling.value = this.value">
+                 
+                <label>reset </label><input type="reset" name="reset" value="Limpiar"><br/>                
+                <label>Submit </label><input type="submit" value="Submit"><br/>            
+            </form>
+            
+            
+        </section>
+        <footer id="piePaguina">
+            Derechos reservados Frjo Bakery &COPY; 2023 <address class="lineaDireccion">San Pablo, Heredia</address> <address class="lineaDireccion">Tel: 8888 7777</address> 
+        </footer>
+    </body>
+</html>
